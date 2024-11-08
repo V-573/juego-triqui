@@ -55,6 +55,3 @@ funcionalidades identificadas.
         - estado del juego: Muestra el turno del jugador actual y si la jugada fue ganadora muestra el mensaje del jugador que gano.
 
 5) Creacion de celdas (square): en este componente se representa cada celda del tablero. Recibe VALUE el valor de la celda X o 0 o NULL y una funcion onClick para manejar click. Este componente es el responsable de mostrar un valor en la celda o una celda vacia
-
-   
-    
