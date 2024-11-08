@@ -1,8 +1,9 @@
+
 1) LO PRIMERO EN LO QUE SE PIENSA ES EN SEPARAR COMPONENTES Y FUNCIONALIDADES TENIENDO EN CUENTA QUE EN ESTE JUEGO DE TRIQUI SE TIENEN LOS SIGUIENTES REQUISITOS: 
-1. TABLERO CON 9 CELDAS
-2. DOS JUGADORES, UNO X OTRO 0, que se turnan
-3. determinar un ganador
-4. opcion para reiniciar el juego
+2. TABLERO CON 9 CELDAS
+3. DOS JUGADORES, UNO X OTRO 0, que se turnan
+4. determinar un ganador
+5. opcion para reiniciar el juego
 
 componentes principales identificados: 
     App: punto de partida de la aplicacion. Dentro de un provider ejecuto mi componente GameBoard
@@ -55,3 +56,8 @@ funcionalidades identificadas.
         - estado del juego: Muestra el turno del jugador actual y si la jugada fue ganadora muestra el mensaje del jugador que gano.
 
 5) Creacion de celdas (square): en este componente se representa cada celda del tablero. Recibe VALUE el valor de la celda X o 0 o NULL y una funcion onClick para manejar click. Este componente es el responsable de mostrar un valor en la celda o una celda vacia
+
+Este es un juego de triqui con el que se puede aprender el uso de useContext y useReducer. 
+
+El componente GameBoard es el tablero del juego que se renderiza y tiene los valores iniciales que proporciona el contexto global creado en GameContext que ademas teiene la logica de actualizacion del estado con el movimiento de cada juigador
+
